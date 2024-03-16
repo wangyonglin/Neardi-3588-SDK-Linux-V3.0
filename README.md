@@ -1,4 +1,4 @@
-###Neardi-3588-SDK-Linux-V3.0
+# Neardi-3588-SDK-Linux-V3.0
 Buildroot 是 Linux 平台上一个构建嵌入式 Linux 系统的框架。整个 Buildroot 是由 Makefile(*.mk) 脚本和 Kconfig(Config.in) 配置文件构成的。你可以和编译 Linux 内核一样，通过 buildroot 配置，menuconfig 修改，编译出一个完整的可以直接烧写到机器上运行的 Linux 系统软件（包含 boot、kernel、rootfs 以及 rootfs 中的各种库和应用程序）。若您要了解更多 Buildroot 开发相关内容，可以参考 Buildroot 官方的 《开发手册》。
 
 硬件配置
