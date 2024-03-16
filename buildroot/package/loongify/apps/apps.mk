@@ -1,0 +1,1 @@
+include $(sort $(wildcard package/loongify/apps/*/*.mk))

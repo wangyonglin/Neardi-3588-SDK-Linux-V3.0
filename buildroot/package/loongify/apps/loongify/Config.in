@@ -1,0 +1,5 @@
+config BR2_PACKAGE_LOONGIFY_APPS_LOOGIFY
+	bool "loongify"
+	depends on BR2_PACKAGE_QT5
+	help 
+		loongify app by QT5

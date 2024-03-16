@@ -1,0 +1,7 @@
+menuconfig BR2_PACKAGE_LOONGIFY
+	bool "Loongify QT apps"
+
+	if BR2_PACKAGE_LOONGIFY
+		source "package/loongify/apps/Config.in"
+	endif
+
